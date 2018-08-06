@@ -1,0 +1,30 @@
+.header h1{
+	font-size:38px;
+	color:yellow;
+}
+.main input[type="text"],.main input[type="email"],.main input[type="password"]{
+	
+	font-size:1.1em;
+	color:red;
+	border:black-dotted;
+	border-radius:2px;
+	margin: 4px 0px 18px 1px;
+	padding: 10px 38px;
+	
+}
+.main input[type="submit"],.main input[type="reset"]{
+	display:inline block;
+	border:black;
+	border-radius:1px;
+	margin: 4px 0px 18px 1px;
+	padding: 10px 38px;
+	text-transform:uppercase;
+	transition:0.4s;
+	
+}
+.main input[type="submit"],.main input[type="reset"]:hover{
+	background:#d52685;
+}
+body{
+	background-image:url('bg.png');
+}
